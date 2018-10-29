@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title></title>
 </head>
 <body>
     <form action="class.php" method="post">
-        Masukan angka 1<input type="text" name="input1"><br>
-        Masukan angka 2<input type="text" name="input2"><br>
+        NIM <input type="text" name="input1"><br>
+        Nama<input type="text" name="input2"><br>
+        Kelas
+        <select name="input3">
+            <option value="D3MI-41-01">D3MI-41-01</option>
+            <option value="D3MI-41-02">D3MI-41-02</option>
+            <option value="D3MI-41-03">D3MI-41-03</option>
+            <option value="D3MI-41-04">D3MI-41-04</option>
+        </select><br>
         Pilih Operasi
         <select name="operasi">
             <option value="+">+</option>
